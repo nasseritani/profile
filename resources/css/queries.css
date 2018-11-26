@@ -1,0 +1,98 @@
+/* This will apply only for screen from 1024 to 1200px tablets to web  */
+@media only screen and (max-width:1200px) {
+    .hero-text-box {
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 4%;
+    }
+    .main-nav li img{
+        display: none;
+    }
+    .main-nav{
+        padding-top: 50px;
+    }
+    .main-nav li {
+        padding:  0% 3%;
+    }
+}
+
+/* This will apply only for screen from 768px to 1023px small tablets to big tablets */
+@media only screen and (max-width:1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+
+    .main-nav li img{
+        display: none;
+    }
+ 
+    .main-nav li {
+        padding:  0% 3%;
+        letter-spacing: 5px;
+    }
+}
+
+/* This will apply only for screen from 481 to 767px for all phones small than ipads*/
+@media only screen and (max-width:767px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+    .main-nav {
+        float: left;
+        margin-top: 20px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        border: 0;
+        display: block;
+        font-size: 100%;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 9%;
+    }
+
+    .col {
+        width: 100% !important;
+        margin: 0 0 4% 1.6%;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .contact{
+        margin:5% 0;
+    }
+    .contact p{
+        font-size: 120%;    }
+}
+
+/* This will apply only for screen from 0 to 480px small phones */
+@media only screen and (max-width:480px) {}
