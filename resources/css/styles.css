@@ -23,8 +23,8 @@ body {
 /*HEADING*/
 header {
     opacity: 0.9;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(141, 141, 141, 0.5)), to(rgba(29, 29, 29, 0.68))), url(clouds-fashion-free-103123.jpg);
-    background-image: linear-gradient(rgba(141, 141, 141, 0.5), rgba(29, 29, 29, 0.68)), url(clouds-fashion-free-103123.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(141, 141, 141, 0.5)), to(rgba(29, 29, 29, 0.68))), url(clouds-fashion-free-103123-min.jpg);
+    background-image: linear-gradient(rgba(141, 141, 141, 0.5), rgba(29, 29, 29, 0.68)), url(clouds-fashion-free-103123-min.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
